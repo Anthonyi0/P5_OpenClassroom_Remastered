@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+    <head>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="E-Commerce,Orinico, Fiche produit , Produit">
+        <meta name="description" content="Voici la fiche produit des produits que vous avez séléctionner">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">      
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="frontend/css/product.css">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>  
+        <script src ="frontend/js/app.js"></script>
+        <script src="frontend/js/productSheep.js"></script>
+
+        <title>Fiche produit</title>
+    </head>
+<body>
+    <header>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Orinoco</strong>
+            </a>
+            <a href="index.html" class="back">Retour à la page d'accueil</a>
+        </div>
+        </div>
+    </header>
+    <!-- Création de la fiche produit sur la page internet-->
+    <main>
+        <div id="product">
+            <h4 class="title_card"></h4>
+            <img src="#" alt="photo du produit"/>
+            <p class="description"></p>
+            <label for="option">Option :</label>
+            <select name="option" id="option">
+            </select>
+            <p class="text_price">Prix : <span class="price"></span> €</p>
+            <label for="quantity"> Nombre d'article :</label>
+            <select name="quantity" id="quantity">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+            <a class="panier btn" href="">Ajouter au panier</a>
+        </div>
+    </main>
+    <!-- Fin de la création de la fiche produit sur la page internet-->
+    <footer>
+        <p class="text_footer">© 2020-2021 Orinoco.All rights reserved <br>Projet 5 - Parcours Developpeur Web - OpenClassrooms</p>
+    </footer>
+</body>
